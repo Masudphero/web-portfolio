@@ -1,5 +1,7 @@
 body{
+    margin: 0px;
     font-family: 'Poppins', sans-serif;
+    
 }
 h1{
     font-size: 50px;
@@ -8,11 +10,28 @@ h1{
     color: rgb(238, 112, 74);
 }
 .half-width{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
+    width: 30%;
+   float: left;
+    margin-left: 10%;
     padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 70%;
+    
+}
+.top-bannar{
+    background-image: url("images/banner.png");
+    background-repeat:no-repeat;
+    
+}
+section{
+   height: 500px;
+}
+.link-button{
+   text-decoration: none;
+   background-image: linear-gradient(45deg, lightsalmon,tomato);
+   padding: 10px 20px;
+   border-radius: 10px;
+   color: white;
+   font-weight: 700; 
 }
